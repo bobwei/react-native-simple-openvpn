@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-simple-openvpn
                    DESC
-  s.homepage     = "https://github.com/ccnnde/react-native-simple-openvpn"
+  s.homepage     = "https://github.com/bobwei/react-native-simple-openvpn"
   s.license      = { :type => "GPLv2", :file => "LICENSE" }
   s.authors      = { "Nor Cod" => "norfecod@outlook.com" }
-  s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/ccnnde/react-native-simple-openvpn.git", :tag => "#{s.version}" }
+  s.platforms    = { :ios => "15.6" }
+  s.source       = { :git => "https://github.com/bobwei/react-native-simple-openvpn.git" }
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
